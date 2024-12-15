@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Login</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <h1>Initiation into the Masons</h1>
+      </div>
+    </header>
+    <article>
+      <div class="container">
+        <form method="post" id="registerForm" action="/register">
+          <fieldset>
+            <label for="login">
+              <legend>Select your login</legend>
+              <input id = "login" type="text"placeholder="Enter login"
+              name="login" minlenght="3" maxlenght=7" required />
+            </label>
+          </fieldset>
+          <fieldset>
+            <label for="email">
+              <legend>Enter your email</legend>
+              <input
+                id="email"
+                type="email"
+                name="email"
+                placeholder="Min 3 characters"
+                required
+              />
+            </label>
+          </fieldset>
+          <fieldset>
+            <label for="pass">
+              <legend>Create your password</legend>
+              <input
+                id="pass"
+                type="password"
+                name="password"
+                placeholder="Min 3 characters & @, !, $, %"
+                required
+              />
+            </label>
+          </fieldset>
+          <fieldset>
+            <label for="passRep">
+              <legend>Repeat password</legend>
+              <input
+                id="passRep"
+                type="password"
+                name="password-repeat"
+                placeholder="Enter your password"
+                required
+              />
+            </label>
+          </fieldset>
+          <select name="Choose language" style="width: 200px">
+            <option>Select your language</option>
+            <option>Français</option>
+            <option>English</option>
+            <option>Russian</option>
+          </select>
+          <button class="submit" type="submit">Get access</button>
+          <button class="reset" type="reset">Reset</button>
+        </form>
+      </div>
+    </article>
+    <footer>
+      <p>Only YOU know the truth.</p>
+    </footer>
+  </body>
+</html>

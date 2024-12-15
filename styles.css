@@ -1,0 +1,49 @@
+body {
+    border: 10px solid black;
+  }
+  
+  h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+  }
+  
+  form {
+    border-top: 15px solid rgb(0, 0, 0);
+    border-right: 15px solid rgb(88, 4, 46);
+    border-bottom: 15px solid rgb(88, 4, 46);
+    border-left: 15px solid rgb(0, 0, 0);
+    padding: 20px;
+  }
+  
+  input {
+    display: block;
+    padding: 3px;
+    margin: 0 0 10px 0;
+  }
+  
+  input:invalid:not(placeholder-shown) {
+    border-color: rgb(88, 4, 46);
+    display: block;
+    padding: 3px;
+    margin: 0 0 10px 0;
+  }
+  
+  select {
+    margin: 20px 0 0 0;
+  }
+  
+  .container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
